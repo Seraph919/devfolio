@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://asoudani.dev
+
+# Sitemaps
+Sitemap: https://asoudani.dev/sitemap.xml
