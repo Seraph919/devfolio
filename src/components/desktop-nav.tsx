@@ -14,6 +14,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import { Download } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { navLinks } from './nav-links';
 
@@ -46,6 +47,19 @@ export default function DesktopNav() {
           </Link>
         );
       })}
+      <span className="h-4 w-px bg-border/60 mx-0.5" aria-hidden="true" />
+      <a
+        href="/resume.pdf"
+        download="Ayoub_Soudani_Resume.pdf"
+        className={cn(
+          'flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-colors',
+          'text-foreground/70 hover:bg-primary/10 hover:text-primary'
+        )}
+        aria-label="Download Resume"
+      >
+        <Download className="h-4 w-4" />
+        Resume
+      </a>
     </nav>
   );
 }

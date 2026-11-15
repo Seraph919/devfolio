@@ -744,10 +744,9 @@ const AnimatedBackground = () => {
     <canvas
       ref={canvasRef}
       aria-hidden="true"
-      className="fixed top-0 left-0 -z-10 h-full w-full"
+      className="fixed top-0 left-0 -z-10 h-full w-full bg-black"
       style={{
-        background:
-          'radial-gradient(circle at 50% 15%, #2a2a2b 0%, #1b1c1e 48%, #17181a 100%)',
+        background: '#000000',
       }}
     />
   );
