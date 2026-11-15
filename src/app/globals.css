@@ -151,10 +151,8 @@
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: hsl(var(--background));
+    background-color: #000000;
     color: hsl(var(--foreground));
-    /* Add subtle noise texture for a more realistic acrylic/glass effect */
-    background-image: radial-gradient(ellipse at 50% -15%, hsl(var(--primary) / .035), transparent 56%);
   }
 }
 
@@ -1705,7 +1703,7 @@ body {
    ============================================================ */
 @layer base {
   :root {
-    --background: 220 5% 9%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 95%;
     --card: 220 4% 15%;
     --card-foreground: 0 0% 95%;
