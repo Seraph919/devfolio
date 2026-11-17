@@ -13,7 +13,7 @@ export default function Projects({ featuredOnly = false }: { featuredOnly?: bool
           <p>Real systems, practical problems, and a lot of learning by shipping.</p>
         </div>
       )}
-      <div className="project-grid">
+      <div className={`project-grid ${featuredOnly ? 'project-grid-featured' : ''}`}>
         {shown.map((project, index) => (
           <article key={project.slug} className={`project-card section-reveal ${project.slug === 'guild-chat' ? 'project-primary' : ''}`}>
             <div className="project-card-top"><span className="project-index">{String(index + 1).padStart(2, '0')}</span><span className="project-category">{project.category}</span></div>

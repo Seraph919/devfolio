@@ -38,7 +38,7 @@ export const skillsData: SkillCategory[] = [
     icon: <Braces size={32} />,
     subtitle: 'From low-level foundations to application-level engineering.',
     skills: [
-      skill('Java', 'openjdk', ['DailyCode', 'Backend services']),
+      skill('Java', 'openjdk', ['Store Studio', 'DailyCode', 'Backend services']),
       skill('C', 'c', ['Minishell', '42 core']),
       skill('C++', 'cplusplus', ['Webserv', '42 modules']),
       skill('Python', 'python', ['Automation', 'FastAPI']),
@@ -51,7 +51,7 @@ export const skillsData: SkillCategory[] = [
     icon: <Layers3 size={32} />,
     subtitle: 'Service boundaries, API design, persistence and messaging.',
     skills: [
-      skill('Spring Boot', 'springboot', ['DailyCode']),
+      skill('Spring Boot', 'springboot', ['Store Studio', 'DailyCode']),
       skill('FastAPI', 'fastapi', ['Python services']),
       skill('Node.js', 'nodedotjs', ['Guild Chat']),
       skill('Hibernate', 'hibernate', ['Java persistence']),

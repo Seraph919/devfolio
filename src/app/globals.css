@@ -1292,6 +1292,14 @@ body {
   .project-primary {
     grid-column: span 2;
   }
+  .project-grid-featured .project-primary {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1024px) {
+  .project-grid-featured {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 @media (max-width: 359px) {
   .site-shell {

@@ -5,7 +5,7 @@ import { pageSocialMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Explore Ayoub Soudani’s software projects: Guild Chat, DailyCode, Webserv, Inception, Minishell and more.',
+  description: 'Explore Ayoub Soudani’s software projects: Guild Chat, Store Studio, DailyCode, Webserv, Inception, Minishell and more.',
   alternates: { canonical: '/projects' },
   ...pageSocialMetadata('Projects by Ayoub Soudani', 'Backend systems, infrastructure and tools built by Ayoub Soudani.', '/projects'),
 };

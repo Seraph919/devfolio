@@ -25,6 +25,18 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
+    slug: 'store-studio',
+    title: 'Store Studio',
+    category: 'Full-stack · E-commerce platform',
+    description:
+      'An open-source, self-hosted e-commerce platform built with Java 21, Spring Boot 4, and React 19. Features JWT/RBAC security, Flyway migrations, Redis caching, Cloudflare R2 media storage, customizable storefront layouts, and seller dashboards.',
+    stack: ['Java 21', 'Spring Boot 4', 'React 19', 'PostgreSQL', 'Redis'],
+    githubUrl: 'https://github.com/Seraph919/store-studio',
+    liveUrl: 'https://storestudio.asoudani.dev',
+    status: 'Live',
+    isFeatured: true,
+  },
+  {
     slug: 'dailycode',
     title: 'DailyCode',
     category: 'Java backend · Automation',
@@ -45,15 +57,6 @@ export const projects: Project[] = [
     stack: ['C++', 'HTTP/1.1', 'Sockets', 'Linux'],
     status: '42 project',
     isFeatured: true,
-  },
-  {
-    slug: 'store-studio',
-    title: 'Store Studio',
-    category: 'Full-stack · In progress',
-    description:
-      'A customizable e-commerce platform for a single store owner, with product and order management, storefront themes, and a dedicated seller dashboard.',
-    stack: ['TypeScript', 'E-commerce', 'UI architecture'],
-    status: 'In progress',
   },
   {
     slug: 'inception',
